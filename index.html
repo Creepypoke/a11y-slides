@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
-	<title>Shower Presentation Engine</title>
+	<title>Доступная библиотека компонентов</title>
 	<meta charset="utf-8">
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -10,36 +10,47 @@
 <body class="shower list">
 
 	<header class="caption">
-		<h1>Shower Presentation Engine</h1>
-		<p>Yours Truly, Famous Inc.</p>
+		<h1>Доступная библиотека компонентов</h1>
+		<p>Антон Есауленко, <a href="https://sber-tech.com/" title="Домашняя страница компании">Сбербанк-Технологии</a></p>
 	</header>
 
+	<section class="slide">
+		<h2>Доступная библиотека компонентов</h2>
+		<p>Антон Есауленко</p>
+	</section>
+
 	<section class="slide" id="cover">
-		<h2>Shower Presentation Engine</h2>
-		<p>Brought to you by <a href="http://pepelsbey.net">Vadim Makeev</a></p>
-		<figure>
-			<img class="cover" src="pictures/cover.jpg" alt="Hands on the orange typewriter in a park">
-			<figcaption class="white">
-				<a href="http://fiftyfootshadows.net/">© John Carey</a>
-			</figcaption>
-		</figure>
+		<a href="https://sber-tech.com">
+			<img src="./pictures/logo_sbt.png" alt="Логотип компании Сбербанк-Технологии">
+		</a>
 		<style>
-			#cover h2 {
-				margin:30px 0 0;
-				color:#FFF;
-				text-align:center;
-				font-size:70px;
-				}
-			#cover p {
-				margin:10px 0 0;
-				text-align:center;
-				color:#FFF;
-				font-style:italic;
-				font-size:20px;
-				}
-				#cover p a {
-					color:#FFF;
-					}
+			#cover {
+				text-align: center
+			}
+		</style>
+	</section>
+
+	<section class="slide" id="cross">
+		<h2 class="middle">✝</h2>
+		<p>welcome</p>
+		<style>
+			#cross {
+				text-align: center;
+				background: #000;
+				color: #420001;
+				text-shadow: 9px 0 0 darkblue;
+			}
+			#cross h2 {
+				color: #420001;
+				font-size: 10em;
+				transform: rotate(180deg);
+			}
+			#cross .middle {
+				position: absolute;
+				top: 50%;
+				left: 0;
+				right: 0;	
+			}
 		</style>
 	</section>
 
