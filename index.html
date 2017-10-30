@@ -1,22 +1,68 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-	<title>Доступная библиотека компонентов</title>
+	<title>Индукционная доступность</title>
 	<meta charset="utf-8">
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="node_modules/shower-ribbon/styles/screen-16x10.css">
+	<style>
+		.ico {
+			padding-right: 10px;
+		}
+		a.clean {
+			background: none;
+		}
+		span.note {
+			color: #a1a1a1;
+		}
+		.left {
+			float: left;
+		}
+		.right {
+			float: right;
+		}
+		.center {
+			text-align: center;
+		}
+		.small-code code {
+			font-size: 22px;
+		}
+	</style>
 </head>
 <body class="shower list">
 
 	<header class="caption">
-		<h1>Доступная библиотека компонентов</h1>
+		<h1>Индукционная доступность</h1>
 		<p>Антон Есауленко, <a href="https://sber-tech.com/" title="Домашняя страница компании">Сбербанк-Технологии</a></p>
 	</header>
 
-	<section class="slide">
-		<h2>Доступная библиотека компонентов</h2>
-		<p>Антон Есауленко</p>
+	<section class="slide" id="initial">
+		<h2>Индукционная доступность</h2>
+		<div id="contacts">
+			<p>Антон Есауленко</p>
+			<ul>
+				<li><img class="ico" width="24px" src="../pictures/mail.svg" alt="" aria-hidden="true"><a href="mailto:avesaulenko.sbt@sberbank.ru">avesaulenko.sbt@sberbank.ru</a></li>
+				<li><img class="ico" src="../pictures/twitter.svg" alt="" width="26px" aria-hidden="true"><a href="https://twitter.com/NaN_undefined_" target="_blank" rel="nofollow noopener" tittle="Твиттер Антона Есауленко">@NaN_undefined_</a></li>
+			</ul>
+		</div>
+		<figure id="mrHolmes">
+			<img height="300px" src="../pictures/holmes-silhouette.svg" alt="Профиль детектива Шерлока Холмса">
+		</figure>
+		<style>
+			#contacts {
+				float: left;
+			}
+			#contacts p {
+				line-height: 14px; 
+			}
+			#contacts li:before {
+				content: '';
+			}
+			#mrHolmes {
+				float: right;
+			}
+		</style>
 	</section>
 
 	<section class="slide" id="cover">
@@ -30,182 +76,145 @@
 		</style>
 	</section>
 
-	<section class="slide" id="cross">
-		<h2 class="middle">✝</h2>
-		<p>welcome</p>
+	<section class="slide">
+		<h2>Экспозиция</h2>
+		<ul>
+			<li class="next">ReactJS + Redux и вот это вот всё</li>
+			<li class="next"><b>50+</b> разработчиков в <b>20+</b> проектах</li>
+			<li class="next">9+ лет интерпрайз разработки <span class="note"><strike>(в самом плохом смысле)</strike></span></li>
+			<li class="next">Особое положение внутри Сбербанк Онлайн</li>
+		</ul>
+	</section>
+
+	<section class="slide" id="exposition">
+		<h2>Особое положение</h2>
+		<figure id="browser">
+			<img src="../pictures/browser.svg" alt="Браузер со схематичным представлением Сбербанк Онлайн">
+		</figure>
 		<style>
-			#cross {
-				text-align: center;
-				background: #000;
-				color: #420001;
-				text-shadow: 9px 0 0 darkblue;
+			#exposition {
+				padding-right: 0;
 			}
-			#cross h2 {
-				color: #420001;
-				font-size: 10em;
-				transform: rotate(180deg);
-			}
-			#cross .middle {
-				position: absolute;
-				top: 50%;
-				left: 0;
-				right: 0;	
+			#browser img {
+				float: right;
 			}
 		</style>
 	</section>
 
 	<section class="slide">
-		<h2>Shower key features</h2>
-		<ol>
-			<li>Built on HTML, CSS and vanilla JavaScript</li>
-			<li>Works in all modern browsers</li>
-			<li>Themes are separated from engine</li>
-			<li>Modular and extensible</li>
-			<li>Fully keyboard accessible</li>
-			<li>Printable to PDF</li>
-		</ol>
-		<p class="note">Shower ['ʃəuə] noun. A person or thing that shows.</p>
+		<h2>Мотивация</h2>
+		<blockquote id="responsobility" cite="http://www.quotecounterquote.com/2012/07/with-great-power-comes-great.html">
+			<p class="note">With great power there must also come great responsibility.</p>
+		</blockquote>
+		<img src="../pictures/spider-man-logo.png" alt="Логотип Человека-Паука в мультяшной интерпретации" srcset="">
 	</section>
 
 	<section class="slide">
-		<h2>Plain text on your slides</h2>
-		<p>Lorem ipsum dolor sit amet, consectetur <a href="#4">adipisicing</a> elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <em>quis nostrud</em> exercitation ullamco laboris <strong>nisi ut aliquip</strong> ex ea commodo consequat. Duis aute irure <i>dolor</i> in reprehenderit in voluptate velit esse cillum <b>dolore</b> eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in <code>&lt;culpa&gt;</code> qui officia deserunt mollit anim id est laborum.</p>
-	</section>
-
-	<section class="slide">
-		<h2>Two columns if you like</h2>
-		<p class="double">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia.</p>
-	</section>
-
-	<section class="slide">
-		<h2>All kind of lists</h2>
-		<ol>
-			<li>Simple lists are marked with bullets</li>
-			<li>Ordered lists begin with a number</li>
-			<li>You can even nest lists one inside another
-				<ul>
-					<li>Or mix their types</li>
-					<li>But do not go too far</li>
-					<li>Otherwise audience will be bored</li>
-				</ul>
-			</li>
-			<li>Look, seven rows exactly!</li>
-		</ol>
-	</section>
-
-	<section class="slide">
-		<h2>Serious citations</h2>
+		<h2>Библиотека компонентов</h2>
 		<figure>
-			<blockquote>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia.</p>
-			</blockquote>
-			<figcaption>Marcus Tullius Cicero</figcaption>
+			<img src="../pictures/storybook.png" width="100%" alt="Скриншот сторибука библиотеки компонентов">
 		</figure>
 	</section>
 
 	<section class="slide">
-		<h2>Code samples</h2>
+		<h2>Серебрянный молоток доступности</h2>
+		<figure class="center next">
+			<a class="clean" href="https://github.com/dequelabs/axe-core"><img src="../pictures/qr/axe-core.svg" alt="QR код - ссылка на плагин"></a>
+			<figcaption>axe-core</figcaption>
+		</figure>
+	</section>
+
+	<section class="slide">
+		<h2>Стратегия</h2>
+		<figure>
+			<img src="../pictures/path.svg" alt="Запутанный путь с маркерами" class="left">
+			<figcaption class="left">
+				<p>Шаги</p>
+				<ol>
+					<li class="next">Инструменты разработчика</li>
+					<li class="next">Юнит-тестирование</li>
+					<li class="next">Автотестирование</li>
+					<li class="next">Соглашения</li>
+				</ol>
+			</figcaption>
+		</figure>
+	</section>
+
+	<section class="slide">
+		<h2>Инструменты разработчика</h2>
+		<figure class="center">
+			<a class="clean" href="https://github.com/evcohen/eslint-plugin-jsx-a11y"><img src="../pictures/qr/jsx-a11y.svg" alt="QR код - ссылка на плагин"></a>
+			<figcaption>eslint-plugin-jsx-a11y</figcaption>
+		</figure>
+	</section>
+
+	<section class="slide">
+		<h2>eslint-plugin-jsx-a11y</h2>
 		<pre>
-			<code>&lt;!DOCTYPE html&gt;</code>
-			<code class="mark">&lt;html lang="en"&gt;</code>
-			<code><mark>&lt;head&gt;</mark> <span class="comment">&lt;!--Comment--&gt;</span></code>
-			<code>    &lt;title&gt;Shower&lt;/title&gt;</code>
-			<code>    &lt;meta charset="<mark class="important">UTF-8</mark>"&gt;</code>
-			<code>    &lt;link rel="stylesheet" href="screen.css"&gt;</code>
-			<code><mark>&lt;/head&gt;</mark></code>
+			<code>&lt;button type="button"&gt;</code>
+			<code>	&lt;Icon name="check-mark" <mark class="hint"><span class="next">alt=""</span></mark> /&gt;</code>
+			<code>	Okay</code>
+			<code>&lt;/button&gt;</code>
 		</pre>
 	</section>
 
 	<section class="slide">
-		<h2>Even tables</h2>
-		<table>
-		<tr>
-			<th scope="col">Locavore</th>
-			<th>Umami</th>
-			<th>Helvetica</th>
-			<th>Vegan</th>
-		</tr>
-		<tr>
-			<th scope="row">Fingerstache</th>
-			<td>Kale</td>
-			<td>Chips</td>
-			<td>Keytar</td>
-		</tr>
-		<tr>
-			<th scope="row">Sriracha</th>
-			<td>Gluten-free</td>
-			<td>Ennui</td>
-			<td>Keffiyeh</td>
-		</tr>
-		<tr>
-			<th scope="row">Thundercats</th>
-			<td>Jean</td>
-			<td>Shorts</td>
-			<td>Biodiesel</td>
-		</tr>
-		<tr>
-			<th scope="row">Terry</th>
-			<td>Richardson</td>
-			<td>Swag</td>
-			<td>Blog</td>
-		</tr>
-		</table>
-		<p>It’s good to have information organized.</p>
-	</section>
-
-	<section class="slide" id="picture">
-		<h2>Pictures</h2>
-		<figure>
-			<img class="cover" src="pictures/picture.jpg" alt="Orange typewriter on a wooden table close-up">
-			<figcaption class="white">
-				<a href="http://fiftyfootshadows.net/">© John Carey</a>
-			</figcaption>
-		</figure>
-		<style>
-			#picture h2 {
-				color:#FFF;
-				}
-		</style>
+		<h2>eslint-plugin-jsx-a11y</h2>
+		<pre>
+			<code>&lt;modal&gt;</code>
+			<code>	&lt;Icon name="close-cross" <mark class="hint"><span class="next">alt="Закрыть модальное окно"</span></mark> /&gt;</code>
+			<code>	&lt;main&gt;Внимание! Внимание! Спасибо за внимание!&lt;/main&gt;</code>
+			<code>&lt;/modal&gt;</code>
+		</pre>
 	</section>
 
 	<section class="slide">
-		<h2 class="shout shrink">You can even shout this way</h2>
+		<pre>
+			<code>{</code>
+			<code>	"plugins": ["jsx-a11y"]</code>
+			<code>	"rules": {</code>
+			<code>		"jsx-a11y/mouse-events-have-key-events": "error",</code>
+			<code>		"jsx-a11y/alt-text": ["warn', {</code>
+			<code>			"elements": ["img"],</code>
+			<code>			"img": ["Icon"]</code>
+			<code>		}]</code>
+			<code>	}</code>
+			<code>}</code>
+		</pre>
 	</section>
 
 	<section class="slide">
-		<h2>Inner navigation</h2>
-		<ol>
-			<li>Lets you reveal list items one by one</li>
-			<li class="next">To keep some key points</li>
-			<li class="next">In secret from audience</li>
-			<li class="next">But it will work only once</li>
-			<li class="next">Nobody wants to see the same joke twice</li>
-		</ol>
+		<h2>Инструменты разработчика</h2>
+		<figure class="center">
+				<a class="clean" href="https://github.com/dequelabs/react-axe"><img src="../pictures/qr/react-axe.svg" alt="QR код с ссылкой на проект react-axe"></a>
+				<figcaption>react-axe</figcaption>
+			</figure>
 	</section>
 
-	<section class="slide grid">
-		<h2>All nicely aligned to grid</h2>
+	<section class="slide">
+		<h2>Юнит-тестирование</h2>
+
 	</section>
 
-	<section class="slide" id="see-more">
-		<h2 class="shout">
-			<img src="pictures/logo.svg" alt="Shower logo">
-			<a href="https://github.com/shower/shower">See more on GitHub</a>
-		</h2>
-		<style>
-			#see-more h2 {
-				font-size:100px
-				}
-			#see-more img {
-				width:0.72em;
-				height:0.72em;
-				}
-		</style>
+	<section class="slide">
+		<h2>Автотестирование (визуальная регрессия)</h2>
 	</section>
 
-	<footer class="badge">
-		<a href="https://github.com/shower/shower">Fork me on GitHub</a>
-	</footer>
+	<section class="slide">
+		<h2>Соглашения</h2>
+	</section>
+
+	<section class="slide">
+		<h2>Сложности с CI</h2>
+	</section>
+
+	<section class="slide">
+		<h2>Подводя итог</h2>
+	</section>
+
+	<section class="slide">
+		<h2>Полезны материалы</h2>
+	</section>
 
 	<div class="progress"></div>
 

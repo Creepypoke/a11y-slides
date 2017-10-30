@@ -47,6 +47,7 @@
   },
   "scripts": {
     "start": "gulp",
+    "dev": "",
     "prepare": "gulp prepare",
     "archive": "gulp archive",
     "publish": "gulp publish",
