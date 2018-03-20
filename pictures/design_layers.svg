@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="720px" height="423px" viewBox="0 0 720 423" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49 (51002) - http://www.bohemiancoding.com/sketch -->
+    <title>Design Layers</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Browser" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Design-Layers">
+            <g id="HTML">
+                <rect id="Rectangle" stroke="#278433" stroke-width="4" x="2" y="2" width="676" height="378.5" rx="8"></rect>
+                <text id="Text" font-family="AndaleMono, Andale Mono" font-size="72" font-weight="normal" letter-spacing="-0.600000024" fill="#278433">
+                    <tspan x="14.5" y="70">HTML</tspan>
+                </text>
+            </g>
+            <g id="A11Y" transform="translate(20.000000, 20.000000)">
+                <rect id="Rectangle" stroke="#F8E71C" stroke-width="4" x="2" y="2" width="676" height="378.5" rx="8"></rect>
+                <text id="Text" font-family="AndaleMono, Andale Mono" font-size="72" font-weight="normal" letter-spacing="-0.600000024" fill="#F8E71C">
+                    <tspan x="14.5" y="70">Accessibility</tspan>
+                </text>
+            </g>
+            <g id="CSS" transform="translate(40.000000, 40.000000)">
+                <rect id="Rectangle" stroke="#4A90E2" stroke-width="4" x="2" y="2" width="676" height="378.5" rx="8"></rect>
+                <text id="Text" font-family="AndaleMono, Andale Mono" font-size="72" font-weight="normal" letter-spacing="-0.600000024" fill="#4A90E2">
+                    <tspan x="14.5" y="70">CSS</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>
