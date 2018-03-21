@@ -85,6 +85,17 @@
 	</section>
 
 	<section class="slide">
+		<h2 class="visibility-hidden">Для кого?</h2>
+		<img src="./pictures/user_illustration_1.svg" alt="" class="place top left next">
+		<img src="./pictures/user_illustration_2.svg" alt="" class="place bottom right next">
+		<img src="./pictures/user_illustration_3.svg" alt="" class="place top right next">
+		<img src="./pictures/pickle-rick.jpg" alt="" class="place bottom left next" height="50%" style="padding-left: 40px">
+		<!-- <img src="./pictures/user_illustration_4.svg" alt="" class="place bottom left next"> -->
+	</section>
+
+	
+
+	<section class="slide">
 		<h2>А в чем проблема?</h2>
 		<ul>
 			<li>Различные типы инвалидности: 1,275 млн в РФ;</li>
@@ -95,232 +106,6 @@
 			<li>Когнитивные расстройства.</li>		
 		</ul>
 	</section>
-
-	<section class="slide">
-		<h2 class="visibility-hidden">Для кого?</h2>
-		<img src="./pictures/user_illustration_1.svg" alt="" class="place top left next">
-		<img src="./pictures/user_illustration_2.svg" alt="" class="place bottom right next">
-		<img src="./pictures/user_illustration_3.svg" alt="" class="place top right next">
-		<img src="./pictures/pickle-rick.jpg" alt="" class="place bottom left next" height="50%" style="padding-left: 40px">
-		<!-- <img src="./pictures/user_illustration_4.svg" alt="" class="place bottom left next"> -->
-	</section>
-
-	<section class="slide">
-		<img src="./pictures/sad-face.svg" alt="" class="cover">
-	</section>
-
-	<section class="slide">
-		<h2>Assistive Technologies</h2>
-		<figure class="next">
-			<img src="./pictures/braille-keyboard.png" alt="Клавиатура браэля"width="100%">
-		</figure>
-	</section>
-
-	<section class="slide">
-		<h2>Adaptive Strategies</h2>
-		<figure class="next">
-			<img src="./pictures/yellow-bricks-road.jpg" alt="" width="50%" class="place right height next">
-			<img src="./pictures/accessibility-bus.jpg" alt="Автобус с пандусом" width="50%" class="place left">
-		</figure>
-	</section>
-
-	<section class="slide">
-		<img src="./pictures/happy-face.svg" alt="" class="cover">
-	</section>
-
-	<section class="slide">
-		<h2 class="visibility-hidden">Мотивация</h2>
-		<blockquote id="responsobility" cite="http://www.quotecounterquote.com/2012/07/with-great-power-comes-great.html">
-			<h2>С большой силой приходит большая ответственность.</h2>
-			<cite>Бенджамин «Бен» Паркер</cite>
-		</blockquote>
-		<img class="place bottom right" src="./pictures/spider-man-logo.png" alt="Логотип Человека-Паука в мультяшной интерпретации">
-	</section>
-
-	<section class="slide">
-		<img src="./pictures/mr_meeseeks.png" alt="" class="cover height">
-		<h2 class="shout"><span class="light">Accessibility <p>=== семантичность</p></span></h2>
-	</section>
-
-	<section class="slide cover">
-		<article class="logos">
-			<img src="./pictures/icon-apple.png" alt="" class="logo">
-			<img src="./pictures/icon-ms.png" alt="" class="logo">
-			<img src="./pictures/icon-android.png" alt="" class="logo">
-		</article>
-		<style>
-			.logos {
-				display: flex;
-				flex-direction: row;
-			}
-			.logos .logo {
-				width: 33%;
-				height: 33%;
-				padding: 5%;
-			}
-		</style>
-	</section>
-
-	<section class="slide" id="layers">
-			<article class="wrapper">
-				<div class="layer html next">
-					<p class="title">HTML</p>
-				</div>
-				<div class="layer css next">
-					<p class="title">CSS</p>
-				</div>
-				<div class="layer js next">
-					<p class="title">JavaScript</p>
-				</div>
-				<!-- <div class="layer other next">
-					<p class="title">...</p>
-				</div> -->
-				<div class="layer a11y next">
-					<p class="title">A11Y</p>
-				</div>
-			</article>
-			<style>
-				#layers .wrapper {
-					position: relative;
-					top: -100px;
-					left: 100px;
-				}
-				#layers .layer {
-					backface-visibility: visible;
-					opacity: 0.85;
-					transform: perspective(500px) rotateX(45deg) rotateY(0deg) rotateZ(0deg);
-					transform: perspective(500px) rotateX(45deg) rotateY(0deg) rotateZ(0deg) skew(45deg, 0deg);
-					transform: perspective(800px) rotateX(25deg) rotateY(0deg) rotateZ(-25deg) skew(30deg, 0deg);
-					border: 4px solid #dadada;
-					border-radius: 8px;
-					background-color: #dadada;
-					height: 382px;
-					width: 680px;
-					position: absolute;
-					top: -100px;
-					left: 10px;
-					transition: top 2s;
-					box-shadow: 0 0 10px #000000;
-				}
-				#layers .layer > .title {
-					color: #ffffff;
-					font-family:'Courier New', Courier, monospace;
-					font-size: 2em;
-					text-align: left;
-				}
-				#layers .layer.html.active {
-					border-color: #237321;
-					background-color: #237321;
-					z-index: 1;
-					top: 30px;
-				}
-				#layers .layer.css.active {
-					border-color: #d173a1;
-					background-color: #d173a1;
-					z-index: 2;
-					top: 60px;
-				}
-				#layers .layer.js.active {
-					border-color: #2326bb;
-					background-color: #2326bb;
-					z-index: 3;
-					top: 90px;
-				}
-				#layers .layer.other.active {
-					z-index: 4;
-					width: 1000px;
-					height: 700px;
-					filter: blur(1px);
-					top: -110px;
-					left: -100px;
-				}
-				#layers .layer.a11y.active {
-					border-color: #e6d820;
-					background-color: #e6d820;
-					z-index: 5;
-					top: 120px;
-				} 
-			</style>
-		</section>
-		
-		<section class="slide" id="layers2">
-			<article class="wrapper">
-				<div class="layer a11y next">
-					<p class="title">A11Y</p>
-				</div>
-				<div class="layer html next">
-					<p class="title">HTML</p>
-				</div>
-				<div class="layer css next">
-					<p class="title">CSS</p>
-				</div>
-				<div class="layer js next">
-					<p class="title">JavaScript</p>
-				</div>
-			</article>
-			<style>
-				#layers2 .wrapper {
-					position: relative;
-					top: -100px;
-					left: 100px;
-				}
-				#layers2 .layer {
-					backface-visibility: visible;
-					opacity: 0.85;
-					transform: perspective(500px) rotateX(45deg) rotateY(0deg) rotateZ(0deg);
-					transform: perspective(500px) rotateX(45deg) rotateY(0deg) rotateZ(0deg) skew(45deg, 0deg);
-					transform: perspective(800px) rotateX(25deg) rotateY(0deg) rotateZ(-25deg) skew(30deg, 0deg);
-					border: 4px solid #dadada;
-					border-radius: 8px;
-					background-color: #dadada;
-					height: 382px;
-					width: 680px;
-					position: absolute;
-					top: -100px;
-					left: 10px;
-					transition: top 2s;
-					box-shadow: 0 0 10px #000000;
-				}
-				#layers2 .layer > .title {
-					color: #ffffff;
-					font-family:'Courier New', Courier, monospace;
-					font-size: 2em;
-					text-align: left;
-				}
-				#layers2 .layer.html.active {
-					border-color: #237321;
-					background-color: #237321;
-					z-index: 1;
-					top: 30px;
-				}
-				#layers2 .layer.css.active {
-					border-color: #d173a1;
-					background-color: #d173a1;
-					z-index: 2;
-					top: 60px;
-				}
-				#layers2 .layer.js.active {
-					border-color: #2326bb;
-					background-color: #2326bb;
-					z-index: 3;
-					top: 90px;
-				}
-				#layers2 .layer.other.active {
-					z-index: 4;
-					width: 1000px;
-					height: 700px;
-					filter: blur(1px);
-					top: -110px;
-					left: -100px;
-				}
-				#layers2 .layer.a11y.active {
-					border-color: #e6d820;
-					background-color: #e6d820;
-					z-index: 0;
-					top: 0px;
-				} 
-			</style>
-		</section>
 
 	<section class="slide">
 		<video src="./pictures/vk_mobile.mp4" width="100%" controls muted class="cover"></video>
@@ -349,18 +134,221 @@
 	</section>
 
 	<section class="slide">
-		<img src="./pictures/brain-meme.jpg" alt="" class="cover">
+		<img src="./pictures/sad-face.svg" alt="" class="cover">
 	</section>
 
 	<section class="slide">
-		<h2 class="visibility-hidden">Поиск баланса</h2>
-		<figure>
-			<blockquote>
-				<img src="./pictures/spiritual-leader-rick-02.jpg" class="place bottom right" height="350" alt="Персонаж Абрадольф Линклер">
-				<p class="xl-text">Совершенство достигнуто не тогда, когда нечего добавить, а когда нечего убрать.</p>
-			</blockquote>
-			<figcaption>Антуан де Сент-Экзюпери</figcaption>
+		<h2 class="visibility-hidden">Мотивация</h2>
+		<blockquote id="responsobility" cite="http://www.quotecounterquote.com/2012/07/with-great-power-comes-great.html">
+			<h2>С большой силой приходит большая ответственность.</h2>
+			<cite>Бенджамин «Бен» Паркер</cite>
+		</blockquote>
+		<img class="place bottom right" src="./pictures/spider-man-logo.png" alt="Логотип Человека-Паука в мультяшной интерпретации">
+	</section>
+
+	<section class="slide">
+		<h2>Assistive Technologies</h2>
+		<figure class="next">
+			<img src="./pictures/braille-keyboard.png" alt="Клавиатура браэля"width="100%">
 		</figure>
+	</section>
+
+	<section class="slide">
+		<h2>Adaptive Strategies</h2>
+		<figure class="next">
+			<img src="./pictures/yellow-bricks-road.jpg" alt="" width="50%" class="place right height next">
+			<img src="./pictures/accessibility-bus.jpg" alt="Автобус с пандусом" width="50%" class="place left">
+		</figure>
+	</section>
+
+	<section class="slide">
+		<img src="./pictures/happy-face.svg" alt="" class="cover">
+	</section>
+
+	<section class="slide">
+		<h2>Выводы</h2>
+		<ul>
+			<li class="next">Мы должны заботиться о всех категориях пользователей в равной степени, давая им возможность воспользоваться нашим интерфейсом;</li>
+			<li class="next">Специальные версии сайтов не нужны (привет kremlin.ru);</li>
+			<li class="next">Простые решения лучше сложных.</li>
+		</ul>
+	</section>
+
+	<section class="slide">
+		<h2>От простого к сложному</h2>
+	</section>
+
+	<section class="slide" id="layers">
+		<article class="wrapper">
+			<div class="layer html next">
+				<p class="title">HTML</p>
+			</div>
+			<div class="layer css next">
+				<p class="title">Design</p>
+			</div>
+			<div class="layer js next">
+				<p class="title">Content</p>
+			</div>
+			<!-- <div class="layer other next">
+				<p class="title">...</p>
+			</div> -->
+			<div class="layer a11y next">
+				<p class="title">A11Y</p>
+			</div>
+		</article>
+		<style>
+			#layers .wrapper {
+				position: relative;
+				top: -100px;
+				left: 100px;
+			}
+			#layers .layer {
+				backface-visibility: visible;
+				opacity: 0.85;
+				transform: perspective(500px) rotateX(45deg) rotateY(0deg) rotateZ(0deg);
+				transform: perspective(500px) rotateX(45deg) rotateY(0deg) rotateZ(0deg) skew(45deg, 0deg);
+				transform: perspective(800px) rotateX(25deg) rotateY(0deg) rotateZ(-25deg) skew(30deg, 0deg);
+				border: 4px solid #dadada;
+				border-radius: 8px;
+				background-color: #dadada;
+				height: 382px;
+				width: 680px;
+				position: absolute;
+				top: -100px;
+				left: 10px;
+				transition: top 2s;
+				box-shadow: 0 0 10px #000000;
+			}
+			#layers .layer > .title {
+				color: #ffffff;
+				font-family:'Courier New', Courier, monospace;
+				font-size: 2em;
+				text-align: left;
+				padding-left: 20px;					
+			}
+			#layers .layer.html.active {
+				border-color: #237321;
+				background-color: #237321;
+				z-index: 1;
+				top: 30px;
+			}
+			#layers .layer.css.active {
+				border-color: #d173a1;
+				background-color: #d173a1;
+				z-index: 2;
+				top: 60px;
+			}
+			#layers .layer.js.active {
+				border-color: #2326bb;
+				background-color: #2326bb;
+				z-index: 3;
+				top: 90px;
+			}
+			#layers .layer.other.active {
+				z-index: 4;
+				width: 1000px;
+				height: 700px;
+				filter: blur(1px);
+				top: -110px;
+				left: -100px;
+			}
+			#layers .layer.a11y.active {
+				border-color: #e6d820;
+				background-color: #e6d820;
+				z-index: 5;
+				top: 120px;
+			} 
+		</style>
+	</section>
+	
+	<section class="slide" id="layers2">
+		<article class="wrapper">
+			<div class="layer a11y next">
+				<p class="title">A11Y</p>
+			</div>
+			<div class="layer html next">
+				<p class="title">HTML</p>
+			</div>
+			<div class="layer css next">
+				<p class="title">Design</p>
+			</div>
+			<div class="layer js next">
+				<p class="title">Content</p>
+			</div>
+		</article>
+		<style>
+			#layers2 .wrapper {
+				position: relative;
+				top: -100px;
+				left: 100px;
+			}
+			#layers2 .layer {
+				backface-visibility: visible;
+				opacity: 0.95;
+				transform: perspective(500px) rotateX(45deg) rotateY(0deg) rotateZ(0deg);
+				transform: perspective(500px) rotateX(45deg) rotateY(0deg) rotateZ(0deg) skew(45deg, 0deg);
+				transform: perspective(800px) rotateX(25deg) rotateY(0deg) rotateZ(-25deg) skew(30deg, 0deg);
+				border: 4px solid #dadada;
+				border-radius: 8px;
+				background-color: #dadada;
+				height: 382px;
+				width: 680px;
+				position: absolute;
+				top: -100px;
+				left: 10px;
+				transition: top 2s;
+				box-shadow: 0 0 10px #000000;
+			}
+			#layers2 .layer > .title {
+				color: #ffffff;
+				text-shadow: 0 0 2px black;
+				font-family:'Courier New', Courier, monospace;
+				font-size: 2em;
+				text-align: left;
+				padding-left: 20px;
+			}
+			#layers2 .layer.html.active {
+				border-color: #237321;
+				background-color: #237321;
+				z-index: 1;
+				top: 30px;
+			}
+			#layers2 .layer.css.active {
+				border-color: #d173a1;
+				background-color: #d173a1;
+				z-index: 2;
+				top: 60px;
+			}
+			#layers2 .layer.js.active {
+				border-color: #2326bb;
+				background-color: #2326bb;
+				z-index: 3;
+				top: 90px;
+			}
+			#layers2 .layer.other.active {
+				z-index: 4;
+				width: 1000px;
+				height: 700px;
+				filter: blur(1px);
+				top: -110px;
+				left: -100px;
+			}
+			#layers2 .layer.a11y.active {
+				border-color: #e6d820;
+				background-color: #e6d820;
+				z-index: 0;
+				top: 0px;
+			} 
+		</style>
+	</section>
+
+	<section class="slide">
+		<img src="./pictures/mr_meeseeks.png" alt="" class="cover height">
+		<h2 class="shout"><span class="light">Ultimative <p>progressive enchancement</p></span></h2>
+	</section>
+
+	<section class="slide">
+		<img src="./pictures/brain-meme.jpg" alt="" class="cover">
 	</section>
 
 	<section class="slide">
@@ -387,9 +375,57 @@
 	</section>
 
 	<section class="slide">
-		<pre>
-			&lt;span data-unit="dropdown" role="listbox" aria-disabled="false" aria-expanded="false" class="src-Dropdown-style--dropdown--1E0qq src-Dropdown-select-select--dropdown--U0PXH">&lt;span data-unit="dropdown:target" aria-disabled="false" class="src-Dropdown-style--target--Yqx0n" aria-label="" mode="arrow" tabindex="0" role="button">&lt;div class="src-Dropdown-select-item--item--IgIlm">&lt;div class="src-Dropdown-select-item--item-info--qXIEp">&lt;span class="src-Dropdown-select-item--item-title--2jM9O">&lt;/span>&lt;/div>&lt;/div>&lt;span data-unit="icon" class="src-icon-style--icon--1NluG src-Dropdown-style--arrow-element--3vOxP src-Dropdown-select-select--arrow-element--SOFaX">&lt;svg xmlns="http://www.w3.org/2000/svg" width="10" height="6" viewBox="0 0 10 6">&lt;path class="down-arrow" fill="#7A7A7A" fill-rule="nonzero" d="M1.484.246a.89.89 0 0 0-1.23 0 .822.822 0 0 0 0 1.19L5 6l4.745-4.564a.822.822 0 0 0 0-1.19.89.89 0 0 0-1.23 0L5 3.621 1.484.246z">&lt;/path>&lt;/svg>&lt;/span>&lt;/span>&lt;div class="src-Dropdown-style--contents--35fsP src-Dropdown-style--bottom--3z8Pc src-Dropdown-style--left--3xwP8" data-unit="dropdown:bubble" role="listbox" style="height: 0px; overflow: hidden;">&lt;div>&lt;div class="src-Dropdown-style--contents-wrapper--2OVfn" data-unit="dropdown:contents">&lt;div class="src-Dropdown-style--contents-view--2yvQW src-Dropdown-select-select--contents-view--3LfTx">&lt;div value="1" disabled="" data-unit="dropdown:option" class="src-Dropdown-style--item--18WHE src-Dropdown-style--selected--1qe1P" role="option" aria-checked="false" aria-selected="true">&lt;span class="src-Dropdown-style--item-title--jzgzI">First&lt;/span>&lt;/div>&lt;div value="2" disabled="" data-unit="dropdown:option" class="src-Dropdown-style--item--18WHE" role="option" aria-checked="false" aria-selected="false">&lt;span class="src-Dropdown-style--item-title--jzgzI">Second&lt;/span>&lt;/div>&lt;div value="3" disabled="" data-unit="dropdown:option" class="src-Dropdown-style--item--18WHE" role="option" aria-checked="false" aria-selected="false">&lt;span class="src-Dropdown-style--item-title--jzgzI">Third&lt;/span>&lt;/div>&lt;div value="4" disabled="" data-unit="dropdown:option" class="src-Dropdown-style--item--18WHE" role="option" aria-checked="false" aria-selected="false">&lt;span class="src-Dropdown-style--item-title--jzgzI">Forth&lt;/span>&lt;/div>&lt;div value="5" disabled="" data-unit="dropdown:option" class="src-Dropdown-style--item--18WHE" role="option" aria-checked="false" aria-selected="false">&lt;span class="src-Dropdown-style--item-title--jzgzI">foo&lt;/span>&lt;/div>&lt;div value="6" disabled="" data-unit="dropdown:option" class="src-Dropdown-style--item--18WHE" role="option" aria-checked="false" aria-selected="false">&lt;span class="src-Dropdown-style--item-title--jzgzI">bar&lt;/span>&lt;/div>&lt;div value="7" disabled="" data-unit="dropdown:option" class="src-Dropdown-style--item--18WHE" role="option" aria-checked="false" aria-selected="false">&lt;span class="src-Dropdown-style--item-title--jzgzI">baz&lt;/span>&lt;/div>&lt;div value="8" disabled="" data-unit="dropdown:option" class="src-Dropdown-style--item--18WHE" role="option" aria-checked="false" aria-selected="false">&lt;span class="src-Dropdown-style--item-title--jzgzI">qux&lt;/span>&lt;/div>&lt;div value="9" disabled="" data-unit="dropdown:option" class="src-Dropdown-style--item--18WHE" role="option" aria-checked="false" aria-selected="false">&lt;span class="src-Dropdown-style--item-title--jzgzI">quux&lt;/span>&lt;/div>&lt;/div>&lt;/div>&lt;/div>&lt;/div>&lt;/span>
-		</pre&gt;
+		<h2 class="visibility-hidden">Поиск баланса</h2>
+		<figure>
+			<blockquote>
+				<img src="./pictures/spiritual-leader-rick-02.jpg" class="place bottom right" height="350" alt="Персонаж Абрадольф Линклер">
+				<p class="xl-text">Совершенство достигнуто не тогда, когда нечего добавить, а когда нечего убрать.</p>
+			</blockquote>
+			<figcaption>Антуан де Сент-Экзюпери</figcaption>
+		</figure>
+	</section>
+
+	<section class="slide">
+		<h2>motherfucking site</h2>
+	</section>
+
+	<section class="slide">
+		<h2>Sharepoint slide</h2>
+	</section>
+
+	<section class="slide cover">
+		<article class="logos">
+			<img src="./pictures/icon-apple.png" alt="" class="logo">
+			<img src="./pictures/icon-ms.png" alt="" class="logo">
+			<img src="./pictures/icon-android.png" alt="" class="logo">
+		</article>
+		<style>
+			.logos {
+				display: flex;
+				flex-direction: row;
+			}
+			.logos .logo {
+				width: 33%;
+				height: 33%;
+				padding: 5%;
+			}
+		</style>
+	</section>
+
+	<section class="slide">
+		<h2>Пара слайдов с примерами различных гайдлайнов для ОС</h2>
+	</section>
+
+	<section class="slide">
+		<h2>web 1.0 скриншот</h2>
+	</section>
+
+	<section class="slide">
+		<h2>Грустные люди %(</h2>
+	</section>
+
+	<section class="slide">
+		<h2>не подходящий инструмент</h2>
 	</section>
 
 	<section class="slide">
