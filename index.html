@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-	<title>Accessibility first разработка.</title>
+	<title>Accessibility in-mind.</title>
 	<meta charset="utf-8">
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -61,12 +61,12 @@
 <body class="shower list">
 
 	<header class="caption">
-		<h1>Accessibility first разработка.</h1>
+		<h1>Accessibility in-mind.</h1>
 		<p>Антон Есауленко, <a href="https://sber-tech.com/" title="Домашняя страница компании">Сбербанк-Технологии</a></p>
 	</header>
 
 	<section class="slide" id="initial2">
-		<h2 class="shout" style="z-index: 100"><span class="light">Accessibility first разработка</span></h2>
+		<h2 class="shout" style="z-index: 100"><span class="light">Accessibility<br/>in-mind</span></h2>
 		<figure class="dinamicBlur">
 			<img src="./pictures/splash.jpg" alt="" class="cover height">
 		</figure>
@@ -85,6 +85,31 @@
 	</section>
 
 	<section class="slide">
+		<h2>Accessibility</h2>
+		<ul id="a11y-definition">
+			<li><span class="next">the quality of being able to be reached or entered</span></li>
+			<li>the quality of being easy to obtain or use</li>
+			<li>the quality of being easily understood or appreciated</li>
+			<li>the quality of being easily reached, entered, or used by people who have a disability</li>
+		</ul>
+		<style>
+			.slide #a11y-definition .next {
+				visibility: visible;
+				transition: background-color 1s, color .4s;
+			}
+			.slide #a11y-definition .next.active {
+				background-color: #237321;
+				color: white;
+			}
+		</style>
+	</section>
+
+	<section class="slide">
+		<h2 class="shout next"><span class="light">Мы не знаем наших пользователей</span></h2>
+		<img src="./pictures/people.png" alt="" class="cover height">
+	</section>
+
+	<section class="slide">
 		<h2 class="visibility-hidden">Для кого?</h2>
 		<img src="./pictures/user_illustration_1.svg" alt="" class="place top left next">
 		<img src="./pictures/user_illustration_2.svg" alt="" class="place bottom right next">
@@ -93,20 +118,11 @@
 		<!-- <img src="./pictures/user_illustration_4.svg" alt="" class="place bottom left next"> -->
 	</section>
 
-	
-
 	<section class="slide">
-		<h2>А в чем проблема?</h2>
-		<ul>
-			<li>Различные типы инвалидности: 1,275 млн в РФ;</li>
-			<li>По зрению 1,1% до 3,5% населения;</li>
-			<li>Полностью слепых до 0,55%;</li>
-			<li>Заболевания двигательного аппарата;</li>
-			<li>Проблемы с речью;</li>
-			<li>Когнитивные расстройства.</li>		
-		</ul>
+		<h2 class="shout next"><span class="light">Нет контролю!</span></h2>		
+		<img src="./pictures/control.jpg" alt="" class="cover height">
 	</section>
-
+	
 	<section class="slide">
 		<video src="./pictures/vk_mobile.mp4" width="100%" controls muted class="cover"></video>
 	</section>
@@ -184,7 +200,7 @@
 
 	<section class="slide">
 		<img src="./pictures/mr_meeseeks.png" alt="" class="cover height">
-		<h2 class="shout"><span class="light">Ultimative <p>progressive enchancement</p></span></h2>
+		<h2 class="shout"><span class="light">Ultimative <p>progressive enhancement</p></span></h2>
 	</section>
 
 	<section class="slide" id="layers">
@@ -356,6 +372,11 @@
 	</section>
 
 	<section class="slide">
+		<h2 class="shout place top"><span class="light">Не подходящий инструмент</span></h2>
+		<img src="./pictures/pickle-rick-wields-some-pretty-gnarly-weapons-in-this-grisly-battle.png" alt="" class="cover height">
+	</section>
+
+	<section class="slide">
 		<select class="natural-select place center">
 			<option value="1">Обычный select</option>
 			<option value="2">Два</option>
@@ -387,50 +408,6 @@
 			</blockquote>
 			<figcaption>Антуан де Сент-Экзюпери</figcaption>
 		</figure>
-	</section>
-
-	<section class="slide">
-		<iframe src="http://motherfuckingwebsite.com" frameborder="0" height="100%" class="cover width"></iframe>
-	</section>
-
-	<section class="slide">
-		<h2>Sharepoint slide</h2>
-	</section>
-
-	<section class="slide cover">
-		<article class="logos">
-			<img src="./pictures/icon-apple.png" alt="" class="logo">
-			<img src="./pictures/icon-ms.png" alt="" class="logo">
-			<img src="./pictures/icon-android.png" alt="" class="logo">
-		</article>
-		<style>
-			.logos {
-				display: flex;
-				flex-direction: row;
-			}
-			.logos .logo {
-				width: 33%;
-				height: 33%;
-				padding: 5%;
-			}
-		</style>
-	</section>
-
-	<section class="slide">
-		<h2>Пара слайдов с примерами различных гайдлайнов для ОС</h2>
-	</section>
-
-	<section class="slide">
-		<iframe src="http://www.arngren.net/" height="100%" frameborder="0" class="cover width"></iframe>
-	</section>
-
-	<section class="slide">
-		<img src="./pictures/sad-jerry.jpg" alt="" class="cover height">
-	</section>
-
-	<section class="slide">
-		<h2 class="shout place top"><span class="light">Не подходящий инструмент</span></h2>
-		<img src="./pictures/pickle-rick-wields-some-pretty-gnarly-weapons-in-this-grisly-battle.png" alt="" class="cover height">
 	</section>
 
 	<section class="slide">
